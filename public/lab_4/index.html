@@ -4,39 +4,42 @@
   <head>
     <meta charset="utf-8">
     <title>Aaron Abshire's Lab 4</title>
-      <link rel = 'stylesheet' href = 'style.css' ./>
+      <link rel = 'stylesheet' href = 'styles.css' ./>
 
   </head>
 
   <body>
     <div class = "header">
-        <h1>Aaron Abshire's Lab 3</h1>
+        <h1>Aaron Abshire's Lab 4</h1>
+        <meta name = 'author' content = 'Aaron Abshire'>
+        <meta name = 'description' content = 'Lab 4'>
         
         <form>
             <ul class = "flex-outer">
                 <li>
-                    <label for ='first-name'>First Name</label>
-                    <input types = 'text' id = 'first-name' maxlength='140' placeholder ='Please enter your first name'>
+                    <label for ='fname'>First Name</label>
+                    <input type = 'text' name = 'fname' id = 'fname' maxlength='140' placeholder ='Please enter your first name'>
                 </li>
                 <li>
-                    <label for = 'last-name'>Last Name</label>
-                    <input types = 'text' id = 'last-name' maxlength='140' placeholder = 'Please enter your last name'>
+                    <label for = 'lname'>Last Name</label>
+                    <input type = 'text' name = 'lname'  id = 'lname' maxlength='140' placeholder = 'Please enter your last name'>
                 </li>
                 <li>
                     <label for ='email'>Email</label>
-                    <input types = 'email' id = 'email' placeholder = 'Please enter your email'>
+                    <input type = 'email' name = 'email' id = 'email' placeholder = 'Please enter your email'>
                 </li>
                 <li>
                     <label for = 'phone'>Phone</label>
-                    <input types = 'tel' id = 'phone' placeholder = 'Pleaseenter your phone number'>
+                    <input type = 'tel' name = 'phone' id = 'phone' placeholder = 'Please enter your phone number'>
                 </li>
                 <li>
-                    <label for = 'meassage'>Message</label>
-                    <textarea rows = '5'cols='33' placeholder = 'Please enter your message'></textarea>
+                    <label for = 'message'>Message</label>
+                    <textarea id = 'message' name = 'message' rows = '5'cols='33' placeholder = 'Please enter your message'></textarea>
                 </li>
                 <li>
                     <p>Age</p>
-                    <ul class = 'flex-inner'>
+                    <!-- age checkboxes -->
+                    <ul class = "flex-inner">
                         <li>
                             <input type = 'checkbox' id='eightteen to thirty-five'>
                             <label for = 'eightteen to thirty-five'>18-35</label>
@@ -51,6 +54,6 @@
                         </li>
                     </ul> 
                 </li>
-            </ul>
+            <!-- Might make it one big unordered list? -->
         </form>
   </body>
