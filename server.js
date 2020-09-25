@@ -17,12 +17,8 @@ app.route('/api')
   })
   .post((req, res) => {
     console.log('POST request detected');
-<<<<<<< HEAD
-    consol e.log('Form data in res.body', req.body);
-    // res.send('<p> hello world <p>')
-=======
     console.log('Form data in res.body', req.body);
->>>>>>> parent of f79b768... Update server.js
+    
   });
 
 app.listen(port, () => {
