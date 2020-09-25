@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Aaron Abshire's Lab 4</title>
+    <title>Aaron Abshire Lab 4</title>
       <link rel = 'stylesheet' href = 'styles.css' ./>
 
   </head>
@@ -55,9 +55,15 @@
                     </ul> 
                 </li>
                 <li>
-                    <button type = 'submit' id='submit-button' name = 'submit-button' formmethod = 'post'>Submit</button>
+                    <form method = 'post' action = '/api'>
+                    <button type = 'submit' id='submit-button' name = 'submit-button' >Submit</button> 
+                    <res.send(<p>hello world</p></res.send>
+                    </form>
+                    <!-- <button type = 'submit' id='submit-button' name = 'submit-button' formmethod = 'post'>Submit</button> -->
                     <!-- <button type = 'submit' id='submit-button' formmethod = 'post'>Submit using POST</button> -->
                 </li>
+                        <!-- </li> -->
+                  </form>
             </ul><!-- Might make it one big unordered list? -->
         </form>
   </body>
