@@ -9,14 +9,25 @@ html, body {
   }
   
   body{
-    font-family: serif;
+    font-family: 'Arvo', serif;
     background-color: #F8D505;
   } 
 
   h1, h2 {
       margin:0;
       padding:0;
-      font-family:serif;s
+      font-family: 'Arvo', serif;
+  }
+
+  h1 {
+      font-size: 3rem;
+      font-weight: 300;
+      text-shadow: -2px 2px #E6CB30;
+  }
+
+  h2 {
+      font-size: 1.8rem;
+      font-weight: 900;
   }
 
 .header {
