@@ -1,8 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+  
+  }
+  
+  body{
+    font-family: serif;
+    background-color: #F8D505;
+  } 
+
+  h1, h2 {
+      margin:0;
+      padding:0;
+      font-family:serif;s
+  }
+
 .header {
-    text-align:center;
     margin-bottom: 10px;
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1B06D1;
+
 }
 
 .container {
