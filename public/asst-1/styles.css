@@ -20,7 +20,7 @@ html, body {
   }
 
   h1 {
-      font-size: 3rem;
+      font-size: 6rem;
       font-weight: 300;
       text-shadow: -2px 2px #E6CB30;
   }
@@ -31,24 +31,31 @@ html, body {
   }
 
 .header {
-    margin-bottom: 10px;
     display: flex;
-    flex-wrap:nowrap;
+    flex-direction: row;
+    flex-wrap:wrap;
     justify-content: space-around;
     align-items: center;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px;
     background-color: #1B06D1;
 
 }
 
 .container {
+    max-width: 960px;
+    align-content:center;
+    flex-wrap:wrap;
 
 }
 
 .wrapper {
-
+    margin: 0 auto;
 }
 
-.main {
+.main-image {
+    flex-direction:column;
 
 }
 
