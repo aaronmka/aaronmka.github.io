@@ -42,21 +42,41 @@ html, body {
     background-color: #1B06D1;
 
 }
-
-.container {
-    max-width: 960px;
-    align-content:center;
-    flex-wrap:wrap;
-
+    
+.wrapper {
+    /* margin: 0 auto;
+    max-width: 960px; */
+    /* flex-wrap:wrap; */
+    /* display: flex;
+    flex-flow: row wrap;  */
 }
 
-.wrapper {
+.container {
     margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 960px;
+    align-content:center;
+    display: flex;
+    /* align-items: flex-start; */
+    /* justify-content: space-around; */
+    /* flex-flow: row wrap;  */
 }
 
 .main-image {
-    flex-direction:column;
+    flex-flow:column wrap;
+    margin-right: 10px;
 
+}
+
+.main-image p {
+    background-color: white;
+    padding:15px;
+    /* max-width: 290px; */
+}
+
+.main-info {
+    background-color: white;
+    padding:15px;
 }
 
 
