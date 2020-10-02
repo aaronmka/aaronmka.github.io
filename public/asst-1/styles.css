@@ -84,7 +84,7 @@ html, body {
     border-style: solid;
 }
 
-.img{
+.imgbox{
     margin-right: 15px; 
 }
 
@@ -105,7 +105,7 @@ html, body {
     .container {
         justify-content:center;
     }  
-    .img{
+    .imgbox{
         flex: 1 0 auto;
         margin-right: 0px; 
     }
