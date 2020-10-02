@@ -70,6 +70,10 @@ html, body {
     /* flex-flow: row wrap;  */
 }
 
+.imgbox img {
+    border: 1px solid #1B06D1;
+    border-radius: 4px;
+}
 
 .image {
     flex-flow: column wrap;
@@ -85,7 +89,7 @@ html, body {
     margin-right: 15px; 
 }
 
-.img p {
+.imgbox p {
     background-color: white;
     padding:15px;
     
