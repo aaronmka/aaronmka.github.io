@@ -68,6 +68,11 @@ html, body {
 
 }
 
+.main-image img {
+    border: 1px solid #1B06D1;
+    border-radius: 4px;
+}
+
 .main-image p {
     background-color: white;
     padding:15px;
