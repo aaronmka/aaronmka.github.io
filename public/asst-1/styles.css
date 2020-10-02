@@ -62,7 +62,6 @@ html, body {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content:space-between;
-    justify-content:center;
     margin-right: 15px;
     flex: 1 0 auto;
     /* align-items: flex-start; */
@@ -102,3 +101,12 @@ html, body {
 }
 
 
+@media only screen and (max-width: 1000px) {
+    .container {
+        justify-content:center;
+    }  
+    .img{
+        flex: 1 0 auto;
+        margin-right: 0px; 
+    }
+  }
