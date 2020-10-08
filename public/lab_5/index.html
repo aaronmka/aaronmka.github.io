@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Aaron Abshire Lab 4</title>
+    <title>Aaron Abshire Lab 5</title>
       <link rel = 'stylesheet' href = 'styles.css'>
 
   </head>
@@ -52,6 +52,13 @@
                         </li>
 
                     </ul> 
+                    <ul class = 'selector'>
+                        <!-- ?????????????? -->
+                        <button type = 'active' id = 'Active' name = 'Active' >active</button>
+                    </ul>'
+                </li>
+                
+
                 </li>
                 <li>
                     <button type = 'submit' id='submit' name = 'submit' >submit</button>
@@ -59,5 +66,12 @@
             </ul>
         </form>
         </div>
+        function testFunction () {
+            fetch('/api')
+            .then((response) => response.text())
+            .then((response) => {
+                console.log(response);
+            })
+        }
   </body>
 </html>
