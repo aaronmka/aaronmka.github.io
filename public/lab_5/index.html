@@ -75,11 +75,11 @@
             .then((response) => response.text())
             .then((response) => {
                  console.log(response);
-                 document.querySelector("head").innerHTML = response;
+                 document.querySelector("h1", "title").innerHTML = response;
                  document.body.style.backgrondColor = 'green';
+                 
             })
-            
-       }
+        }
         </script>
   </body>
 </html>
