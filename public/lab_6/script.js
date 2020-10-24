@@ -30,13 +30,27 @@ document.body.addEventListener('submit', async (e) => {
     .then((fromServer) => fromServer.json())
     .then((fromServer) => {
       // You're going to do your lab work in here. Replace this comment.
-    // var random = countries.js.export default[Math.floor(Math.random() * 10 )]
-    // prof A's code
-    const array10 = range(10);
-    const reverselist = newArr2.sort(a,b) => sortFunction(a, b, 'name'));
+
+      if (document.querySelector('.flex-inner')) {
+        document.querySelector('.flex-inner').remove();
+      }
+      const array10 = range(10)
+      const countries = array10.map(x => fromServer[Math.floor(Math.random() * 206)])
+
+      console.log(countries)
+      const reverselist = countries.sort((a,b) => sortFunction(b, a, 'name'));
+      console.log(reverselist)
+      
+      $("form").prepend("<ol class='flex-inner'> </ol>")
+      reverselist.forEach((element, j) => {
+        const li = document.createElement('li')
+        $(li).append(`<input type='checkbox' id=${element.code} value=${element.code} />`)
+        $(li).append(`<label for=${element.code}>${element.name}</label>`)
+        $('ol').append(li);
+      });
 
 
       console.log('fromServer', fromServer);
     })
     .catch((err) => console.log(err));
-});
+  })
