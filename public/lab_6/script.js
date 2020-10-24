@@ -30,8 +30,8 @@ document.body.addEventListener('submit', async (e) => {
     .then((fromServer) => fromServer.json())
     .then((fromServer) => {
       // You're going to do your lab work in here. Replace this comment.
-      
-
+    var random = countries.js.export default[Math.floor(Math.random() * 10)]
+    
 
       console.log('fromServer', fromServer);
     })
