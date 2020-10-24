@@ -30,8 +30,9 @@ document.body.addEventListener('submit', async (e) => {
     .then((fromServer) => fromServer.json())
     .then((fromServer) => {
       // You're going to do your lab work in here. Replace this comment.
-    var random = countries.js.export default[Math.floor(Math.random() * 10)]
-    
+    // var random = countries.js.export default[Math.floor(Math.random() * 10 )]
+    const reverselist = newArr2.sort(a,b) => sortFunction(a, b, 'name'));
+
 
       console.log('fromServer', fromServer);
     })
