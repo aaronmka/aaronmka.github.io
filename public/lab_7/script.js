@@ -1,3 +1,4 @@
+import fetch from 'node-fetch';
 function convertRestaurantsToCategories(restaurantList) {
   // process your restaurants here!
   return list;
@@ -6,6 +7,12 @@ function convertRestaurantsToCategories(restaurantList) {
 function makeYourOptionsObject(datapointsFromRestaurantsList) {
   // set your chart configuration here!
   CanvasJS.addColorSet('customColorSet1', [
+    '#F20CCC',
+    '#0476D9',
+    '#F2E30F',
+    '#F2CC0C',
+    '#F24444'
+    // Color pallete: https://color.adobe.com/explore?page=2
     // add an array of colors here https://canvasjs.com/docs/charts/chart-options/colorset/
   ]);
 
